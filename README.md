@@ -25,7 +25,7 @@ The design supports:
 
 ### Video Demo
 
-[Watch the demo video](barrier.MOV)
+[![Watch the demo](barrier.gif)](barrier.MOV)
 
 ---
 
