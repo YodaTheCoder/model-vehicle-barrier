@@ -25,10 +25,7 @@ The design supports:
 
 ### Video Demo
 
-<video width="640" height="480" controls>
-  <source src="barrier.MOV" type="video/quicktime">
-  Your browser does not support the video tag.
-</video>
+[Watch the demo video](barrier.MOV)
 
 ---
 
