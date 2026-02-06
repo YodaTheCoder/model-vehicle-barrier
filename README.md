@@ -166,13 +166,13 @@ You can open these files in Fusion 360, Blender, FreeCAD, or other CAD tools to 
 
 | Qty | Item |
 |---:|------|
-| 1 | Arduino Nano (ATmega328P) |
-| 1 | HC-SR04 Ultrasonic Sensor |
-| 1 | 28BYJ-48 5V Stepper Motor |
+| 1 | [Arduino Nano](https://www.amazon.co.uk/dp/B0CX1B4X7M) (ATmega328P) |
+| 1 | [HC-SR04 Ultrasonic Sensor](https://www.amazon.co.uk/YeBetter-Ultrasonic-Distance-Rangefinder-Detection/dp/B086VH9T9G/ref=sr_1_4) |
+| 1 | [28BYJ-48 5V Stepper Motor](https://www.amazon.co.uk/Generic-28BYJ-48-Stepper-ULN2003-Driver/dp/B0DLV2DMYB/ref=sr_1_9) |
 | 1 | ULN2003 Stepper Driver Board |
-| 1 | WS2812B / NeoPixel LED strip (2 LEDs) |
-| 2 | SPDT slide switch (2-position, 3-pin) |
-| 1 | Momentary push button |
+| 1 | [WS2812B / NeoPixel LED strip](https://www.amazon.co.uk/BTF-LIGHTING-Individual-Addressable-60Pixels-Non-Waterproof/dp/B088BRY2SH/ref=sr_1_3_sspa?th=1) (2 LEDs) |
+| 2 | [SPDT slide switch](https://www.amazon.co.uk/Switches-Positions-Vertical-Mounting-Electronic/dp/B0F7R18ZMT/ref=sr_1_9) (2-position, 3-pin) |
+| 1 | [Momentary push button](https://www.amazon.co.uk/DAOKAI-Momentary-Miniature-Electronic-Components/dp/B09WVDCJVB/ref=sxin_15_pa_sp_search_thematic_sspa) |
 | 1 | External 5V power supply (≥1A recommended) |
 | 1 | 330–470Ω resistor (NeoPixel data line, optional but recommended) |
 | 1 | 100–470µF electrolytic capacitor (across 5V/GND near motor driver, recommended) |
