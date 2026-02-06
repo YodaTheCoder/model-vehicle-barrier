@@ -97,6 +97,33 @@ One side -> D2
 Other    -> GND
 ```
 
+```
+                 ┌─────────────────────────────────┐
+                 │           Arduino Nano          │
+                 │                                 │
+                 │  ┌─────────┐                    │
+                 │  │ USB /   │                    │
+                 │  │ Serial  │                    │
+                 │  └─────────┘                    │
+                 │                                 │
+ D13  (unused) ──┤ D13                         RAW ├── (unused)
+ D12  (unused) ──┤ D12                         GND ├── GND (common)
+ D11  (unused) ──┤ D11                         RST ├── (unused)
+ D10  HC-SR04 ───┤ D10  → Echo                  5V ├── 5V (logic only)
+ D9   HC-SR04 ───┤ D9   ← Trig                  A7 ├── (unused)
+ D8   ULN2003 ───┤ D8   ← IN4                   A6 ├── (unused)
+ D7   ULN2003 ───┤ D7   ← IN3                   A5 ├── (unused)
+ D6   ULN2003 ───┤ D6   ← IN2                   A4 ├── (unused)
+ D5   ULN2003 ───┤ D5   ← IN1                   A3 ├── (unused)
+ D4   NeoPixel ──┤ D4   ← DIN                   A2 ├── (unused)
+ D3   Dir Switch ┤ D3   → Reverse switch        A1 ├── (unused)
+ D2   Jog Btn ───┤ D2   → Jog button            A0 ├── (unused)
+                 │                                 │
+                 │ All inputs (→) use INPUT_PULLUP │
+                 │ All grounds are common          │
+                 └─────────────────────────────────┘
+```
+
 > ⚠️ **Important:**  
 > All grounds (Arduino, stepper PSU, NeoPixels, sensors) **must be connected together**.
 
